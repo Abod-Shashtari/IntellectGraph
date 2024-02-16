@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'dart:html';
-import 'package:graph_x/constants/values.dart';
-import 'package:xor_cipher/xor_cipher.dart';
+import 'package:graph_x/models/my_cipher.dart';
 
 class GraphFetchWeb {
   Future<Map<String, dynamic>> readJson(String url) async {
@@ -10,7 +9,8 @@ class GraphFetchWeb {
     if (data == null) {
       throw Exception('Error!');
     }
-    String decryptedData = XOR.decrypt(data, myVar);
+
+    String decryptedData = MyCipher().decrypter(data);
     return jsonDecode(decryptedData);
   }
 }
