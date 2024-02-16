@@ -86782,7 +86782,7 @@ case 1:return A.T(q,r)}})
 return A.U($async$B7,r)}}
 A.Md.prototype={
 J(a){var s=null,r=A.a([new A.wV(new A.aag(),s,s,t.A7)],t.Ds),q=A.Cz(s,A.aIQ(B.a6,B.Ja),!0)
-return A.aM3(new A.zA(B.IN,A.az(["/top_view_solve_page",new A.aah(),"/design_page",new A.aai()],t.N,t.Ab),"Graph_x",q,s),r)}}
+return A.aM3(new A.zA(B.IN,A.az(["/top_view_solve_page",new A.aah(),"/design_page",new A.aai()],t.N,t.Ab),"IntellectGraph",q,s),r)}}
 A.aag.prototype={
 $1(a){var s,r,q,p,o,n=t.v1,m=A.a([],n)
 n=A.a([],n)
